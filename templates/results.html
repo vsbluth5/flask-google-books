@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Book Information{% endblock %}
+
+{% block title2 %} {{ props.title }} {% endblock %}
+
+{% block content %}
+<p class="text-left"> {{ props.summary }}</p>
+<img src="{{ props.source }}" alt="{{props.topic}} image"/>
+<p class="text-center"><a href='/'>Go Back</a></p>
+{% endblock %}

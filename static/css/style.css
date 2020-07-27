@@ -1,0 +1,11 @@
+body {
+    background-color: #DE98F9;
+}
+
+.boxy-container {
+    width:30%; 
+    margin:60px;
+    padding:3%;
+    border: 5px solid white;
+    
+}

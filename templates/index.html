@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title2 %} Enter a topic  {% endblock %}
+{% block content %}
+
+    <form action="/result" method="post">
+	    <input type="text" name="interest" value="" placeholder="Topic"/>
+	    <input type="submit" value="Submit"/>
+    </form>
+    <p>After you select your one word topic (for now), one will be selected at random 
+        with its title and its description here. Other covers will be displayed in 
+        the carousel to the right.</p>
+    
+{% endblock %}
